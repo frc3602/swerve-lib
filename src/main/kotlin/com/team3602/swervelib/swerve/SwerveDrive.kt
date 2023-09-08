@@ -14,10 +14,10 @@ class SwerveDrive(moduleConstants: Array<SwerveModuleConstants>, feedforwardCons
 
     init {
         swerveModules = Array<SwerveModule>(4) {
-            SwerveModule(0, moduleConstants[0], feedforwardConstants),
-            SwerveModule(1, moduleConstants[1], feedforwardConstants),
-            SwerveModule(2, moduleConstants[2], feedforwardConstants),
-            SwerveModule(3, moduleConstants[3], feedforwardConstants)
+            SwerveModule(0, moduleConstants[0], feedforwardConstants);
+            SwerveModule(1, moduleConstants[1], feedforwardConstants);
+            SwerveModule(2, moduleConstants[2], feedforwardConstants);
+            SwerveModule(3, moduleConstants[3], feedforwardConstants);
         }
     }
 }
