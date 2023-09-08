@@ -4,7 +4,7 @@
  * in the root directory of this project.
  */
 
-package com.team3602.teamlibrary.swerve
+package com.team3602.swervelib.swerve
 
 import edu.wpi.first.math.geometry.Rotation2d
 

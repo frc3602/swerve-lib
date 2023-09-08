@@ -4,7 +4,7 @@
  * in the root directory of this project.
  */
 
-package com.team3602.teamlibrary.controller
+package com.team3602.swervelib.controller
 
 final class FeedforwardConstants(kS: Double, kG: Double, kV: Double, kA: Double) {
     public var kS: Double

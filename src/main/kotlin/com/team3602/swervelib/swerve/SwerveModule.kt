@@ -4,14 +4,14 @@
  * in the root directory of this project.
  */
 
-package com.team3602.teamlibrary.swerve
+package com.team3602.swervelib.swerve
 
 import com.ctre.phoenix.sensors.WPI_CANCoder
 import com.revrobotics.CANSparkMax
 import com.revrobotics.CANSparkMaxLowLevel
 import com.revrobotics.RelativeEncoder
-import com.team3602.teamlibrary.controller.FeedforwardConstants
-import com.team3602.teamlibrary.swerve.swerveconstants.*
+import com.team3602.swervelib.controller.FeedforwardConstants
+import com.team3602.swervelib.swerve.swerveconstants.*
 import edu.wpi.first.math.controller.SimpleMotorFeedforward
 import edu.wpi.first.math.geometry.Rotation2d
 import edu.wpi.first.math.kinematics.SwerveModulePosition

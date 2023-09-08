@@ -4,7 +4,7 @@
  * in the root directory of this project.
  */
 
-package com.team3602.teamlibrary.swerve.swerveconstants
+package com.team3602.swervelib.swerve.swerveconstants
 
 import edu.wpi.first.math.util.Units
 

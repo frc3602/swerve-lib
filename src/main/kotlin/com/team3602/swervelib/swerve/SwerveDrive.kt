@@ -4,10 +4,10 @@
  * in the root directory of this project.
  */
 
-package com.team3602.teamlibrary.swerve
+package com.team3602.swervelib.swerve
 
-import com.team3602.teamlibrary.swerve.SwerveModule
-import com.team3602.teamlibrary.controller.FeedforwardConstants
+import com.team3602.swervelib.swerve.SwerveModule
+import com.team3602.swervelib.controller.FeedforwardConstants
 
 class SwerveDrive(moduleConstants: Array<SwerveModuleConstants>, feedforwardConstants: FeedforwardConstants) {
     private var swerveModules: Array<SwerveModule>
